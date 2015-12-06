@@ -1,0 +1,10 @@
+{"sales": [
+    {{#sales}}
+        {
+            "date": {{date}},
+            "item": {{item}},
+            "price": {{price}}
+        }
+        {{#unless @last}},{{/unless}}
+    {{/sales}}
+]}
